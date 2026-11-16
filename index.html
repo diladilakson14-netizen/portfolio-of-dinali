@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | Dinali Perera</title>
+<link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="index.html"><img class="mark" src="images/avatar_girl.png" alt="" width="40" height="40">Dinali Perera</a>
+  <div class="controls">
+    <button id="theme-toggle" class="icon-btn" aria-label="Switch to dark mode" aria-pressed="false"><span id="theme-icon">&#9790;</span></button>
+    <button id="menu-btn" class="icon-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span class="bars"></span></button>
+  </div>
+  <nav id="menu" class="menu" aria-label="Main menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Brand Strategist & Interactive Designer - Colombo, Sri Lanka</p>
+      <h1>Brands from Sri Lanka, built for the world.</h1>
+      <p class="lead">Brand systems, interactive websites, and product experiences, shaped with purpose and detail.</p>
+      <a class="btn" href="#projects">Explore work</a>
+      <a class="btn ghost" href="contact.html">Contact Us</a>
+    </div>
+    <div class="hero-art" aria-hidden="true"><span class="s1"></span><span class="s2"></span><span class="s3"></span></div>
+  </section>
+
+  <section class="stats-band">
+    <p><strong>8+</strong> Years crafting brands</p>
+    <p><strong>50+</strong> Launches delivered</p>
+    <p><strong>110+</strong> Global partners</p>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Explore work</h2>
+    <div class="filters" id="filters" aria-label="Filter projects"></div>
+    <div class="gallery" id="gallery" aria-live="polite">Loading stories...</div>
+  </section>
+</main>
+<dialog id="modal" class="modal">
+  <article>
+    <img id="modal-img" alt="">
+    <h2 id="modal-title"></h2>
+    <p id="modal-desc"></p>
+    <button class="btn" id="modal-close">Close</button>
+  </article>
+</dialog>
+<footer class="site-footer"><p>&copy; 2026 Dinali Perera | All right reserved</p></footer>
+<script src="js/main.js"></script>
+</body>
+</html>

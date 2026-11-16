@@ -1,0 +1,44 @@
+[
+ {
+  "id": 1,
+  "title": "LankaPay NextGen Digital Banking",
+  "category": "Fintech & UI/UX",
+  "image": "images/fintech.jpeg",
+  "description": "End-to-end brand system, dark-mode mobile banking interface, and interactive data visualization built for a regional financial leader."
+ },
+ {
+  "id": 2,
+  "title": "Ceylon Botanicals Global Rebrand",
+  "category": "Brand Systems",
+  "image": "images/branding.jpg",
+  "description": "Complete visual identity, packaging guidelines, and modular design system positioning a Sri Lankan lifestyle brand for international markets."
+ },
+ {
+  "id": 3,
+  "title": "Kandy Tea Estate Interactive Story",
+  "category": "Interactive Web",
+  "image": "images/Tea.jpg",
+  "description": "WebGL-powered digital flagship blending spatial storytelling, custom micro-interactions, and e-commerce for an artisanal heritage label."
+ },
+ {
+  "id": 4,
+  "title": "PulseOS Consumer Tech Platform",
+  "category": "PulseOS UI/UX",
+  "image": "images/PulseOS.jpeg",
+  "description": "Scalable component library, cross-device interface architecture, and motion system for a smart-home hardware ecosystem."
+ },
+ {
+  "id": 5,
+  "title": "Serendib Air Brand Architecture",
+  "category": "Air Brand",
+  "image": "images/Airline.jpg",
+  "description": "Brand positioning, tone of voice, and cohesive digital touchpoints designed for a modern boutique aviation and travel experience."
+ },
+ {
+  "id": 6,
+  "title": "Colombo Design Week Spatial Web",
+  "category": "Colombo Design",
+  "image": "images/ColomboDesign.jpg",
+  "description": "Creative direction and kinetic web showcase featuring real-time generative typography and interactive exhibition schedules."
+ }
+]
